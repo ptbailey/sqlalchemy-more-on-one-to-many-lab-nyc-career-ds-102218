@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from queries import *
 
 if bool(session.query(Player).all()) == False:
-    exec(open(__main__ + "/seed.py").read())
+    exec(open("./seed.py").read())
 
 class TestHasManyBelongsTo(unittest.TestCase):
     # tests to come

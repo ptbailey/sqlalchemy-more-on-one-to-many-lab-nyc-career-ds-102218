@@ -40,7 +40,7 @@ la_dodgers_team = Teams(name = 'LA Dodgers', city = la, sport = baseball)
 la_lakers_team = Teams(name = 'LA Lakers', city = la, sport = basketball)
 ny_yankees_team = Teams(name = 'NY Yankees', city = ny, sport = baseball)
 ny_knicks_team = Teams(name = 'NY Knicks', city = ny, sport = basketball)
-
+teams = [la_dodgers_team, la_lakers_team, ny_knicks_team, ny_yankees_team]
 #Istantiate Players
 def heightconvert(height):
     string = ''.join(char for char in height if char.isalnum())

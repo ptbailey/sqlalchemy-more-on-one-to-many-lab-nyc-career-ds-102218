@@ -42,5 +42,5 @@ class Teams(Base):
 
 
 
-engine = create_engine('sqlite:///sports.db')
+engine = create_engine('sqlite:///sports.db', echo = True)
 Base.metadata.create_all(engine)
